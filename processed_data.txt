@@ -1,0 +1,11 @@
+rank	item	repo_name	stars	forks	language	repo_url	username	issues	last_commit	description	contributors	commits	used_by
+10	top-100-stars	react	222646	45394	JavaScript	https://github.com/facebook/react	facebook	695	2024-05-15T00:58:39Z	The library for web and native user interfaces.	1641	18753	21703887
+13	top-100-stars	javascript-algorithms	183250	29608	JavaScript	https://github.com/trekhleb/javascript-algorithms	trekhleb	129	2024-04-18T16:27:20Z	📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings	203	1104	0
+22	top-100-stars	bootstrap	167613	78419	JavaScript	https://github.com/twbs/bootstrap	twbs	423	2024-05-14T19:49:54Z	The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.	1391	22800	5587788
+25	top-100-stars	AutoGPT	161996	42491	JavaScript	https://github.com/Significant-Gravitas/AutoGPT	Significant-Gravitas	74	2024-05-14T23:27:38Z	AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.	717	5293	0
+31	top-100-stars	javascript	142201	26185	JavaScript	https://github.com/airbnb/javascript	airbnb	90	2024-05-13T19:40:33Z	JavaScript Style Guide	500	1974	1513297
+38	top-100-stars	next.js	121198	25937	JavaScript	https://github.com/vercel/next.js	vercel	2668	2024-05-15T01:56:51Z	The React Framework	3302	21012	2786041
+40	top-100-stars	30-seconds-of-code	119502	11878	JavaScript	https://github.com/Chalarangelo/30-seconds-of-code	Chalarangelo	0	2024-05-14T19:00:58Z	Short code snippets for all your development needs	315	8954	101
+49	top-100-stars	node	104221	28031	JavaScript	https://github.com/nodejs/node	nodejs	1564	2024-05-15T01:26:33Z	Node.js JavaScript runtime ✨🐢🚀✨	3437	41407	0
+50	top-100-stars	axios	104167	10728	JavaScript	https://github.com/axios/axios	axios	560	2024-05-13T02:28:21Z	Promise based HTTP client for the browser and node.js	437	1540	12855122
+52	top-100-stars	create-react-app	101950	26604	JavaScript	https://github.com/facebook/create-react-app	facebook	1718	2024-05-12T04:22:29Z	Set up a modern web app by running one command.	897	2802	12449717

@@ -1,0 +1,145 @@
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	overflow-y: auto; /* Umożliwienie przewijania strony */
+}
+
+.container-content {
+	position: relative;
+	z-index: 1; /* Ustawienie z-index powyżej tła */
+	padding: 20px; /* Przykładowe marginesy/padding dla treści */
+}
+
+
+.horizontal-menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.horizontal-menu li {
+	display: inline-block;
+}
+
+.horizontal-menu li a {
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.horizontal-menu li,
+li.draggable-mirror {
+	border: 1px solid black;
+	padding: 10px !important;
+	margin: 0 5px !important;
+	width: 100px !important;
+	text-align: center;
+	cursor: grab !important;
+	list-style: none;
+	line-height: 20px;
+	height: 40px !important;
+	font-weight: bold;
+	color: #fff;
+}
+
+.horizontal-menu li:active {
+	cursor: grabbing !important;
+}
+
+.board-table {
+	border-collapse: collapse;
+	margin: auto; 
+}
+
+.board-table td {
+	border: 1px solid #000;
+	padding: 10px;
+	text-align: center; 
+	width: 45px; 
+	height: 30px; 
+	background-color: white;
+}
+
+.bg-battlefield {
+	background-color: rgb(215, 222, 255);
+}
+
+.base-bg {
+ 	position: relative;
+}
+
+.base-bg::before, .base-bg::after {
+	content: "";
+	position: fixed;
+	width: 450%;  
+	height: 450%; 
+	top: -150%;   
+	left: -150%;  
+	z-index: -1;
+	background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url(/static/pics/Bg-pattern.png) repeat;
+	background-size: 2%;
+	transform: rotate(-45deg);
+	animation: slide 50s linear infinite;  /* czas trwania animacji może być dostosowany */
+}
+
+.base-bg::after {
+	animation-delay: -25s; /* Opóźnienie równoważne połowie czasu trwania animacji */
+  }
+
+@keyframes slide {
+	0% {
+	  transform: translate(0, 0) rotate(-45deg);
+	}
+	100% {
+	  transform: translate(-20%, 9.6%) rotate(-45deg); /* Zmienione wartości przesunięcia */
+	}
+}
+
+
+
+.fields-bg {
+	background-image: url("/static/pics/SteampunkBG.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.center-index {
+	height: max-content;
+}
+
+/* FONT  */
+
+.koho-regular {
+	font-family: "KoHo", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.koho-header {
+	font-family: "KoHo", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+/* For plots */
+.plot-bs {
+    display: block;  /* Usuwa domyślny margines dolny/odstęp, który mają elementy img */
+    max-width: 100%; /* Ogranicza szerokość do maksymalnej szerokości kontenera */
+    height: auto;    /* Zachowuje proporcje obrazu */
+    margin: 0 auto;  /* Centruje obraz w kontenerze */
+}
+
+.img-wrap {
+	width: 200px;
+	height: 150px;
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	margin: 0;
+}
+
+  /* ANIMACJE MENU KATEGORII */
+
