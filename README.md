@@ -4,6 +4,10 @@
 
 GitHub Repos Statistics is a Flask-based web application based on Github-Ranking repo that provides insightful data and statistics from GitHub repositories. The application allows users to explore various metrics through interactive visualizations and an intuitive interface. While at first the website was made with being updated dynamically in mind, due to the time-contraints that came with extended long loading times and severe server loads, it has been converted to the static implementation. The original dynamic code is still contained within files.  
 
+## Github Ranking - Source Repo
+
+https://github.com/EvanLi/Github-Ranking
+
 ## Features
 
 - **Homepage**: An overview of GitHub repository statistics presented in a user-friendly way.
@@ -59,10 +63,10 @@ The application will start and be accessible at http://127.0.0.1:5000.
 
 ## Usage 
 
-	•	Navigate through the interactive menu on the right side of the application to explore different data categories.
-	•	View detailed comparisons of commits, contributors, and repository usage.
-	•	Explore the growth and trends of Free Code Camp repositories.
-	•	Analyze general statistics such as star counts and forks for various programming languages.
+- Navigate through the interactive menu on the right side of the application to explore different data categories.
+- View detailed comparisons of commits, contributors, and repository usage.
+- Explore the growth and trends of Free Code Camp repositories.
+- Analyze general statistics such as star counts and forks for various programming languages.
 
 ## Contributing
 
