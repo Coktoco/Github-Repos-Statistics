@@ -2,7 +2,7 @@
 
 ## Overview
 
-GitHub Repos Statistics is a Flask-based web application based on Github-Ranking repo that provides insightful data and statistics from GitHub repositories. The application allows users to explore various metrics through interactive visualizations and an intuitive interface. While at first the website was made with being updated dynamically in mind, due to the time-contraints that came with extended long loading times and severe server loads, it has been converted to the static implementation. The original dynamic code is still contained within files.  
+GitHub Repos Statistics is a Flask-based web application based on Github-Ranking repo that provides insightful data and statistics from GitHub repositories. The application allows users to explore various metrics through interactive visualizations and an intuitive interface. While at first the website was made with being updated dynamically in mind, due to the time-contraints that came with extended long loading times and severe server loads, it has been converted to the static implementation. The original dynamic code is still contained within files. The website was written in polish language.  
 
 ## Github Ranking - Source Repo
 
@@ -74,7 +74,7 @@ Contributions are welcome! If you have ideas for improvements or new features, p
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License.
 
 ## Contact
 
@@ -82,5 +82,11 @@ For questions or further information, feel free to contact me via email or on Li
 
 ## Links
 
-Original colab workspace with every code that was used in creating the diagrams used on website. 
+Google colab workspace with original code that was used for creating the diagrams, files and general content used on the website. 
 - https://colab.research.google.com/drive/19WtFMykiO_ZMpf1csPICVpQg3pvGFNx1#scrollTo=9OdvRHmlE87V
+
+### Photos of working project:
+
+<img width="1512" alt="Zrzut ekranu 2024-08-29 o 19 15 26" src="https://github.com/user-attachments/assets/a9a24036-3340-4fee-af24-f48e551538de">
+<img width="1512" alt="Zrzut ekranu 2024-08-29 o 19 16 56" src="https://github.com/user-attachments/assets/eb909da2-2693-4eed-8ba9-47c8137c9fe4">
+
