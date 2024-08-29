@@ -2,7 +2,7 @@
 
 ## Overview
 
-GitHub Repos Statistics is a Flask-based web application based on Github-Ranking repo that provides insightful data and statistics from GitHub repositories. The application allows users to explore various metrics through interactive visualizations and an intuitive interface. While the website was made with being updated dynamically at first, due to the time-contraints it has been converted to the static implementation. The original dynamic code is still contained within files.  
+GitHub Repos Statistics is a Flask-based web application based on Github-Ranking repo that provides insightful data and statistics from GitHub repositories. The application allows users to explore various metrics through interactive visualizations and an intuitive interface. While at first the website was made with being updated dynamically in mind, due to the time-contraints that came with extended long loading times and severe server loads, it has been converted to the static implementation. The original dynamic code is still contained within files.  
 
 ## Features
 
