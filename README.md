@@ -87,8 +87,11 @@ For questions or further information, feel free to contact me via email or on Li
 Google colab workspace with original code that was used for creating the diagrams, files and general content used on the website. 
 - https://colab.research.google.com/drive/19WtFMykiO_ZMpf1csPICVpQg3pvGFNx1#scrollTo=9OdvRHmlE87V
 
-# Screenshots of a working project:
+# Screenshots:
 
+Homepage:
 <img width="1512" alt="Zrzut ekranu 2024-08-29 o 19 15 26" src="https://github.com/user-attachments/assets/a9a24036-3340-4fee-af24-f48e551538de">
+
+Analysis about stars that are shared by different programming languages:
 <img width="1512" alt="Zrzut ekranu 2024-08-29 o 19 16 56" src="https://github.com/user-attachments/assets/eb909da2-2693-4eed-8ba9-47c8137c9fe4">
 
